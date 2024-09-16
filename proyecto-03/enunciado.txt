@@ -1,0 +1,5 @@
+crea una web que tenga un encabezado de segundo nivel,un link y un parrafo.
+* El encabezado debe ser blanco con fondo negro y con margen interior de 10px.
+* El link debe ser rojo, sin subrayado y 18px de tamaño.
+* El parrafo debe ser de color negro, tamaño 14px y un borde fino.
+* Todos los estilos se deben aplicar sin usar clases.

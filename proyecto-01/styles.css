@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*crear la animacion*/
+@keyframes botar{
+    0%{
+        transform: translateY(-100%); /*oculto*/
+    }
+    50%{
+        transform: translateY(0%); /*muestra el nav en 1.5s*/
+    }
+    100%{
+        transform: translateY(-100%); /*oculta el nav*/
+    }
+}
+
+/*  se aplica estilos al nav */
+.navegacion{
+    transform: translateY(-100%); /*oculta el nav*/
+    animation-name: botar;  /* se da nombre a la animacion */
+    animation-duration: 3s;  /*tiempo de la animacion*/
+    animation-iteration-count: infinite; /* repeticion de la animacion*/
+}
+
+/* Se aplica estilos al menu */
+.menu li{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+}
